@@ -49,7 +49,7 @@ class CourseCrawl(scrapy.Spider):
 		yield {
 			'subject': response.xpath('//ul[@class = "breadcrumb expand"]/li[3]/a/text()').extract_first(),
 			'course': response.xpath('//ul[@class = "breadcrumb expand"]/li[4]/a/text()').extract_first(), 
-			'section': response.xpath('//ul[@class = "breadcrumb expand"]/li[5]/a/text()').extract_first(), 
+			'section': response.xpath('//ul[@class = "breadcrumb expand"]/li[5]/text()').extract_first(), 
 			'remaining seats': response.xpath('//tr[td[1]/text() = "Total Seats Remaining:"]/td[2]/strong/text()').extract_first()
 		}
 
