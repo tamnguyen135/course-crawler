@@ -1,3 +1,3 @@
 Course Crawler
 
-A mini-project on recognizing the structure of websites and crawling for interesting data using Scrapy.
+Crawling for interesting data across UBC's course pages using Scrapy.
