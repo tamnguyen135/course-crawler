@@ -1,3 +1,3 @@
-# course_crawler
+Course Crawler
 
-Goal: to crawl through UBC course pages and extract interesting statistics, e.g. number of seats
+A mini-project on recognizing the structure of websites and crawling for interesting data using Scrapy.
